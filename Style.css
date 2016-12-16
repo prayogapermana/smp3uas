@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	font-family: 'Raditya'
+}
+@font-face{
+	src:url('Font/Cabin-Regular.ttf');
+	font-family: 'Raditya';
+}
+
+header{
+	background: url('Image/1_Profil.png');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 676px;
+	width: 100%;
+}
+header nav{
+	z-index: 99;
+	position: fixed;
+	background-color: black;
+	height: 50px;
+	width: 100%;
+	top: 0px;
+	opacity: 0.7;
+	filter: alpha(opacity);
+}
+header nav ul{
+	position: absolute;
+	display: flex;
+	list-style: none;
+	left: 330px;
+	top: 1px;
+}
+header nav ul li a{
+	text-decoration: none;
+	padding: 11px 30px;
+	color: white;
+	transition: all .1s ease;
+}
+header nav ul li a:hover{
+	color: #01A0FB;
+	border-bottom: 5px solid;
+}
+
+.logo{
+	position: absolute;
+	left: 525px;
+	top: 90px;
+	width: 22%;
+}
+.logo img{
+	width: 100%;
+}
+.info_titik{
+	position: relative;
+	font-size: 80px;
+	bottom: 128px;
+	padding: 0px 10px;
+}
+.info_1{
+	position: absolute;
+	display: flex;
+	top: 430px;
+	left: 472px;
+	color: #FFF;
+}
+.info_2{
+	position: absolute;
+	display: flex;
+	top: 450px;
+	left: 458.5px;
+	color: #FFF;
+}
+ 
+.klik_1{
+	position: absolute;
+	background-color: #01A0FB;
+	padding: 10px 50px;
+	left: 560px;
+	top: 500px;
+	cursor: pointer;
+}
+.klik_1 a{
+	text-decoration: none;
+	color: #FFF;
+}
+.klik_1:hover{
+	background: #86C127;
+	color: black;
+	transition: all .3s ease;
+}
+
+footer{
+	position: relative;
+	bottom: 240px;
+}
+.footer_background{
+	position: relative;
+	background-color: #282828;
+	height: 60px;
+	top: 240px;
+
+}
+.footer_p_1{
+	position: absolute;
+	left: 95px;
+	top: 8px;
+	color: #FFF;
+}
+.footer_p_2{
+	position: absolute;
+	left: 950px;
+	top: 8px;
+	color: #FFF;
+}

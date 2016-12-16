@@ -1,0 +1,284 @@
+body{
+	margin: 0;
+	font-family: 'Raditya'
+}
+@font-face{
+	src:url('Font/Cabin-Regular.ttf');
+	font-family: 'Raditya';
+}
+
+header{
+	background: url('Image/1_Profil.png');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 676px;
+	width: 100%;
+}
+header nav{
+	z-index: 99;
+	position: fixed;
+	background-color: black;
+	height: 50px;
+	width: 100%;
+	top: 0px;
+	opacity: 0.7;
+	filter: alpha(opacity);
+}
+header nav ul{
+	position: absolute;
+	display: flex;
+	list-style: none;
+	left: 330px;
+	top: 1px;
+}
+header nav ul li a{
+	text-decoration: none;
+	padding: 11px 30px;
+	color: white;
+	transition: all .1s ease;
+}
+header nav ul li a:hover{
+	color: #01A0FB;
+	border-bottom: 5px solid;
+}
+
+.logo{
+	position: absolute;
+	left: 525px;
+	top: 90px;
+	width: 22%;
+}
+.logo img{
+	width: 100%;
+}
+.info_titik{
+	position: relative;
+	font-size: 80px;
+	bottom: 128px;
+	padding: 0px 10px;
+}
+.info_1{
+	position: absolute;
+	display: flex;
+	top: 430px;
+	left: 472px;
+	color: #FFF;
+}
+.info_2{
+	position: absolute;
+	display: flex;
+	top: 450px;
+	left: 458.5px;
+	color: #FFF;
+}
+ 
+.klik_1{
+	position: absolute;
+	background-color: #01A0FB;
+	padding: 10px 50px;
+	left: 482px;
+	top: 500px;
+	cursor: pointer;
+}
+.klik_1 a{
+	text-decoration: none;
+	color: #FFF;
+}
+.klik_2{
+	position: absolute;
+	background-color: #01A0FB;
+	padding: 10px 50px;
+	left: 682px;
+	top: 500px;
+	cursor: pointer;
+}
+.klik_2 a{
+	text-decoration: none;
+	color: #FFF;
+}
+.klik_1:hover{
+	background: #86C127;
+	color: black;
+	transition: all .3s ease;
+}
+.klik_2:hover{
+	background: #86C127;
+	color: black;
+	transition: all .3s ease;
+}
+.section_atas{
+	position: relative;
+	background-color: #01A0FB;
+	height: 350px;
+	width: 100%;
+}
+.section_atas_kiri{
+	float: left;
+	width: 45%;
+	text-align: center;
+	padding: 50px 25px;
+	color: #FFF;
+}
+.section_atas_kanan{
+	float: right;
+	width: 45%;
+	text-align: center;
+	padding: 50px 25px;
+	color: #FFF;
+}
+.section_tengah_kepala{
+	position: relative;
+	left: 570px;
+	bottom: 110px;
+	width: 15%;
+}
+.section_tengah_kepala img{
+	width: 100%;
+}
+
+.section_bawah{
+	position: relative;
+	bottom: 110px;
+}
+.section_bawah h1{
+	position: relative;
+	text-align: center;
+}
+.section_bawah hr{
+	position: relative;
+	max-width: 300px;
+	border: 3px solid;
+	color: #01A0FB;
+	bottom: 10px;
+}
+.section_bawah table tr td{
+	position: relative;
+	text-align: center;
+	left: 190px;
+}
+.section_bawah tr td{
+	padding: 10px 20px;
+	border: 1px solid;
+}
+
+footer{
+	position: relative;
+	bottom: 70px;
+}
+.footer_hr{
+	border: 3px solid;
+	max-width: 980px;
+	color: #CCCCCC;
+}
+footer nav{
+	position: absolute;
+	left: 200px;
+	top: -5px;
+	height: 0px;
+}
+footer ul{
+	display: flex;
+	list-style: none;
+}
+footer ul li{
+	width: 35%;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.footer_halaman_1{
+	position: relative;
+	bottom: 20px;
+}
+.footer_halaman_2{
+	position: relative;
+	bottom: 20px;
+}
+.footer_contact_1{
+	position: relative;
+	right: 184px;
+}
+.footer_contact_2{
+	position: relative;
+	right: 200px;
+}
+.footer_link{
+	position: relative;
+	right: 130px;
+	bottom: 1px;
+}
+.footer_sosial_ok_1{
+	position: relative;
+	display: flex;
+	width: 20%;
+	left: 650px;
+	bottom: 145px;
+}
+.footer_sosial_ok_1 a img{
+	width: 100%;
+	height: 100%;
+}
+.footer_sosial_2{
+	position: relative;
+	left: 5px;
+}
+.footer_sosial_3{
+	position: relative;
+	left: 10px;
+}
+.footer_sosial_4{
+	position: relative;
+	left: 15px;
+}
+.footer_sosial_5{
+	position: relative;
+	left: 20px;
+}
+.footer_sosial_ok_2{
+	position: relative;
+	display: flex;
+	width: 20%;
+	left: 650px;
+	bottom: 130px;
+}
+.footer_sosial_ok_2 a img{
+	width: 100%;
+	height: 100%;
+}
+.footer_sosial_7{
+	position: relative;
+	left: 5px;
+}
+.footer_sosial_8{
+	position: relative;
+	left: 10px;
+}
+.footer_sosial_9{
+	position: relative;
+	left: 15px;
+}
+.footer_sosial_10{
+	position: relative;
+	left: 20px;
+}
+
+.footer_background{
+	position: relative;
+	background-color: #282828;
+	height: 60px;
+	top: 240px;
+
+}
+.footer_p_1{
+	position: absolute;
+	left: 95px;
+	top: 8px;
+	color: #FFF;
+}
+.footer_p_2{
+	position: absolute;
+	left: 950px;
+	top: 8px;
+	color: #FFF;
+}
